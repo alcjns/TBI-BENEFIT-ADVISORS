@@ -3,3 +3,5 @@
 
 .wordmark{display:flex;flex-direction:column;align-items:flex-start;gap:.08em;font-family:"Arial Black","Helvetica Neue",Arial,sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.065em;line-height:.78}.wordmark span{display:block;line-height:.78}.wordmark span:first-child{font-size:1.62em;letter-spacing:-.045em;transform:translateX(-.07em)}.header-wordmark{color:var(--ink);font-size:.68rem}.footer-brand{color:#fff;font-size:1.48rem;letter-spacing:-.065em}
 @media(max-width:520px){.header-wordmark{font-size:.61rem}.footer-brand{font-size:1.3rem}}
+.nav-phone{font-variant-numeric:tabular-nums;letter-spacing:.035em}.contact-phone{display:inline-block;margin:-12px 0 24px;color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.65rem,2.5vw,2.7rem);letter-spacing:-.025em;border-bottom:2px solid var(--orange);padding-bottom:6px}.footer-phone{display:inline-block;color:#fff;font-size:1.05rem;font-weight:800;letter-spacing:.045em;margin-top:10px;font-variant-numeric:tabular-nums}
+@media(max-width:850px){.nav-phone{display:none}}

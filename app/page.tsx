@@ -13,7 +13,7 @@ export default function Home() {
     <main>
       <nav className="nav" aria-label="Main navigation">
         <a className="wordmark header-wordmark" href="#top" aria-label="TBI Benefit Advisors home"><span>TBI</span><span>Benefit</span><span>Advisors</span></a>
-        <div className="nav-links"><a href="#about">About</a><a href="#plans">Plans</a><a className="nav-cta" href="#contact">Get guidance</a></div>
+        <div className="nav-links"><a href="#about">About</a><a href="#plans">Plans</a><a className="nav-phone" href="tel:+14073103300" aria-label="Call TBI Benefit Advisors at 407-310-3300">407-310-3300</a><a className="nav-cta" href="#contact">Get guidance</a></div>
       </nav>
       <section className="hero" id="top">
         <div className="hero-copy">
@@ -36,7 +36,7 @@ export default function Home() {
       </section>
       <section className="process"><p className="section-index">02 — Our approach</p><div className="process-copy"><p className="quote">“Good coverage starts with a conversation.”</p><div className="steps"><p><Check /> Tell us what matters to you</p><p><Check /> Review available plan options</p><p><Check /> Get help with the next step</p></div></div></section>
       <section className="contact" id="contact">
-        <div className="contact-copy"><p className="eyebrow">Let’s talk</p><h2>Ready to explore your options?</h2><p>Share a few details and an advisor will follow up. Please do not include medical or other sensitive personal information.</p><div className="privacy-note"><span aria-hidden="true">✦</span><p>Your information should only be used to respond to your request.</p></div></div>
+        <div className="contact-copy"><p className="eyebrow">Let’s talk</p><h2>Ready to explore your options?</h2><a className="contact-phone" href="tel:+14073103300">407-310-3300</a><p>Call us directly or share a few details and an advisor will follow up. Please do not include medical or other sensitive personal information.</p><div className="privacy-note"><span aria-hidden="true">✦</span><p>Your information should only be used to respond to your request.</p></div></div>
         <form onSubmit={handleSubmit}>
           <div className="field-row"><label>First name<input required name="firstName" autoComplete="given-name" /></label><label>Last name<input required name="lastName" autoComplete="family-name" /></label></div>
           <label>Email address<input required type="email" name="email" autoComplete="email" /></label><label>Phone number <span>(optional)</span><input type="tel" name="phone" autoComplete="tel" /></label>
@@ -45,7 +45,7 @@ export default function Home() {
           <button className="button button-orange" type="submit">Send my request <span>→</span></button>{sent && <p className="form-status" role="status">Thanks—your request has been received.</p>}
         </form>
       </section>
-      <footer><div className="wordmark footer-brand" aria-label="TBI Benefit Advisors"><span>TBI</span><span>Benefit</span><span>Advisors</span></div><p>Florida health insurance guidance since 1999.</p><p className="fine-print">TBI Benefit Advisors is a health insurance agency. Plan availability, eligibility, benefits, costs, and subsidies vary. This website is for general informational purposes and is not a guarantee of coverage or benefits. TBI Benefit Advisors is not affiliated with or endorsed by the U.S. government or the federal Medicare program.</p><p className="copyright">© {new Date().getFullYear()} TBI Benefit Advisors. All rights reserved.</p></footer>
+      <footer><div className="wordmark footer-brand" aria-label="TBI Benefit Advisors"><span>TBI</span><span>Benefit</span><span>Advisors</span></div><p>Florida health insurance guidance since 1999.<br /><a className="footer-phone" href="tel:+14073103300">407-310-3300</a></p><p className="fine-print">TBI Benefit Advisors is a health insurance agency. Plan availability, eligibility, benefits, costs, and subsidies vary. This website is for general informational purposes and is not a guarantee of coverage or benefits. TBI Benefit Advisors is not affiliated with or endorsed by the U.S. government or the federal Medicare program.</p><p className="copyright">© {new Date().getFullYear()} TBI Benefit Advisors. All rights reserved.</p></footer>
     </main>
   );
 }
