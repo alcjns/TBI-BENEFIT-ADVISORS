@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         <div className="hero-art"><div className="image-frame"><Image src="/tbi-tiger.jpg" alt="Illustrated white tiger, the TBI Benefit Advisors brand symbol" fill priority sizes="(max-width: 800px) 90vw, 42vw" /></div><p className="art-caption"><b>Fiercely protecting</b><br />your financial health.</p></div>
       </section>
-      <section className="intro" id="about"><p className="section-index">01 — Who we are</p><div><h2>Experience you can lean on.</h2><p>For more than 25 years, TBI Benefit Advisors has helped clients navigate health insurance with clarity and personal attention. We make a complicated decision feel more manageable.</p></div></section>
+      <section className="intro" id="about"><p className="section-index">Who we are</p><div><h2>Experience you can lean on.</h2><p>For more than 25 years, TBI Benefit Advisors has helped clients navigate health insurance with clarity and personal attention. We make a complicated decision feel more manageable.</p></div></section>
       <section className="plans" id="plans">
         <div className="plans-heading"><p className="eyebrow">What we do</p><h2>Clear guidance.<br />Thoughtful choices.</h2></div>
         <div className="service-grid">
