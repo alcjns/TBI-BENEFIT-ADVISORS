@@ -36,7 +36,7 @@ export default function Home() {
       </section>
       <section className="process"><p className="section-index">02 — Our approach</p><div className="process-copy"><p className="quote">“Good coverage starts with a conversation.”</p><div className="steps"><p><Check /> Tell us what matters to you</p><p><Check /> Review available plan options</p><p><Check /> Get help with the next step</p></div></div></section>
       <section className="contact" id="contact">
-        <div className="contact-copy"><p className="eyebrow">Let’s talk</p><h2>Ready to explore your options?</h2><a className="contact-phone" href="tel:+14073103300">(407) 310-3300</a><p>Call us directly or share a few details and an advisor will follow up. Please do not include medical or other sensitive personal information.</p><div className="privacy-note"><span aria-hidden="true">✦</span><p>Your information should only be used to respond to your request.</p></div></div>
+        <div className="contact-copy"><p className="eyebrow">Let’s talk</p><h2>Ready to explore your options?</h2><a className="contact-phone" href="tel:+14073103300">(407) 310-3300</a><p>Call us directly or share a few details and an advisor will follow up. Please do not include medical or other sensitive personal information.</p></div>
         <form onSubmit={handleSubmit}>
           <div className="field-row"><label>First name<input required name="firstName" autoComplete="given-name" /></label><label>Last name<input required name="lastName" autoComplete="family-name" /></label></div>
           <label>Email address<input required type="email" name="email" autoComplete="email" /></label><label>Phone number <span>(optional)</span><input type="tel" name="phone" autoComplete="tel" /></label>
