@@ -29,9 +29,10 @@ export default function Home() {
       <section className="plans" id="plans">
         <div className="plans-heading"><p className="eyebrow">What we do</p><h2>Clear guidance.<br />Thoughtful choices.</h2></div>
         <div className="service-grid">
-          <article><span className="service-number">01</span><h3>ACA plan options</h3><p>We explain available Affordable Care Act plan choices from participating Florida insurance carriers.</p></article>
-          <article><span className="service-number">02</span><h3>Personal support</h3><p>We listen first, then help you compare key features such as networks, premiums, and out-of-pocket costs.</p></article>
-          <article><span className="service-number">03</span><h3>Enrollment guidance</h3><p>From application through enrollment, we help you understand the process and what comes next.</p></article>
+          <article><h3>ACA plan options</h3><p>We explain available Affordable Care Act plan choices from participating Florida insurance carriers.</p></article>
+          <article><h3>Personal support</h3><p>We listen first, then help you compare key features such as networks, premiums, and out-of-pocket costs.</p></article>
+          <article><h3>Enrollment guidance</h3><p>From application through enrollment, we help you understand the process and what comes next.</p></article>
+          <article><h3>Year-round support</h3><p>Questions can come up after enrollment. We remain available throughout the year to help you understand your coverage and next steps.</p></article>
         </div>
       </section>
       <section className="process"><p className="section-index">02 — Our approach</p><div className="process-copy"><p className="quote">“Good coverage starts with a conversation.”</p><div className="steps"><p><Check /> Tell us what matters to you</p><p><Check /> Review available plan options</p><p><Check /> Get help with the next step</p></div></div></section>
