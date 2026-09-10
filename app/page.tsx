@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       <nav className="nav" aria-label="Main navigation">
-        <a className="brand" href="#top" aria-label="TBI Benefit Advisors home"><span className="brand-mark">TBI</span><span>Benefit Advisors</span></a>
+        <a className="wordmark header-wordmark" href="#top" aria-label="TBI Benefit Advisors home"><span>TBI</span><span>Benefit</span><span>Advisors</span></a>
         <div className="nav-links"><a href="#about">About</a><a href="#plans">Plans</a><a className="nav-cta" href="#contact">Get guidance</a></div>
       </nav>
       <section className="hero" id="top">
@@ -45,7 +45,7 @@ export default function Home() {
           <button className="button button-orange" type="submit">Send my request <span>→</span></button>{sent && <p className="form-status" role="status">Thanks—your request has been received.</p>}
         </form>
       </section>
-      <footer><div className="brand footer-brand"><span className="brand-mark">TBI</span><span>Benefit Advisors</span></div><p>Florida health insurance guidance since 1999.</p><p className="fine-print">TBI Benefit Advisors is a health insurance agency. Plan availability, eligibility, benefits, costs, and subsidies vary. This website is for general informational purposes and is not a guarantee of coverage or benefits. TBI Benefit Advisors is not affiliated with or endorsed by the U.S. government or the federal Medicare program.</p><p className="copyright">© {new Date().getFullYear()} TBI Benefit Advisors. All rights reserved.</p></footer>
+      <footer><div className="wordmark footer-brand" aria-label="TBI Benefit Advisors"><span>TBI</span><span>Benefit</span><span>Advisors</span></div><p>Florida health insurance guidance since 1999.</p><p className="fine-print">TBI Benefit Advisors is a health insurance agency. Plan availability, eligibility, benefits, costs, and subsidies vary. This website is for general informational purposes and is not a guarantee of coverage or benefits. TBI Benefit Advisors is not affiliated with or endorsed by the U.S. government or the federal Medicare program.</p><p className="copyright">© {new Date().getFullYear()} TBI Benefit Advisors. All rights reserved.</p></footer>
     </main>
   );
 }
