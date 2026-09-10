@@ -14,3 +14,5 @@
 @media(max-width:850px){.plans-heading .eyebrow{margin-bottom:38px}}
 .service-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.service-grid article{display:flex;flex-direction:column;min-height:225px;padding:38px 28px 28px 0;margin-right:28px}.service-grid h3{margin:0 0 20px;line-height:1.12}.service-grid p{margin:0;line-height:1.7}
 @media(max-width:850px){.service-grid{grid-template-columns:1fr}.service-grid article{min-height:0;margin-right:0;padding:34px 0;border-right:0;border-bottom:1px solid #47433f}.service-grid article:last-child{border-bottom:0}}
+.hero{grid-template-columns:.92fr 1.08fr;gap:4vw}.hero-art{max-width:660px}.art-anniversary{margin:0 0 18px;color:#fff;font-size:clamp(1.05rem,1.7vw,1.55rem);font-weight:900;letter-spacing:.16em;text-align:center;text-transform:uppercase}.image-frame{aspect-ratio:.78}
+@media(max-width:850px){.art-anniversary{margin-bottom:18px;font-size:clamp(1rem,4.5vw,1.35rem)}.hero-art{padding-top:9vw}.image-frame{aspect-ratio:.76}}

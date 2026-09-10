@@ -23,7 +23,7 @@ export default function Home() {
           <div className="hero-actions"><a className="button button-dark" href="#contact">Talk with an advisor <span>→</span></a><a className="text-link" href="#plans">Explore our approach</a></div>
           <div className="trust-row" aria-label="Company highlights"><div><strong>Since 1999</strong><span>Serving individuals &amp; families</span></div><div><strong>Florida focused</strong><span>Local plan guidance</span></div></div>
         </div>
-        <div className="hero-art"><div className="hero-art-inner"><div className="image-frame"><Image src="/tbi-tiger.jpg" alt="Illustrated white tiger, the TBI Benefit Advisors brand symbol" fill priority sizes="(max-width: 800px) 90vw, 42vw" /></div><p className="art-caption"><b>Fiercely protecting</b><br />your financial health.</p></div></div>
+        <div className="hero-art"><div className="hero-art-inner"><p className="art-anniversary">Celebrating 25 Years</p><div className="image-frame"><Image src="/tbi-tiger.jpg" alt="Illustrated white tiger, the TBI Benefit Advisors brand symbol" fill priority sizes="(max-width: 800px) 94vw, 48vw" /></div><p className="art-caption"><b>Fiercely protecting</b><br />your financial health.</p></div></div>
       </section>
       <section className="intro" id="about"><p className="section-index">Who we are</p><div><h2>Experience you can lean on.</h2><p>For more than 25 years, TBI Benefit Advisors has helped clients navigate health insurance with clarity and personal attention. We make a complicated decision feel more manageable.</p></div></section>
       <section className="plans" id="plans">
