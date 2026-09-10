@@ -1,0 +1,16 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - test -n "$CONTACT_API_URL"
+        - mkdir -p aws-dist
+        - cp -R aws-site/assets aws-dist/assets
+        - cp aws-site/index.html aws-site/styles.css aws-site/form.js aws-dist/
+        - sed "s|__CONTACT_API_URL__|$CONTACT_API_URL|g" aws-site/config.template.js > aws-dist/config.js
+  artifacts:
+    baseDirectory: aws-dist
+    files:
+      - "**/*"
+  cache:
+    paths: []
